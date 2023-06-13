@@ -20,17 +20,39 @@
     <!-- Javascript -->
     <script src="main.js"></script>
   </head>
-  <body class="h-screen">
-    <div class="flex flex-row">
-      <!-- Left Half -->
-      <div class="fixed flex flex-1 flex-col">
-        <p>Test 1</p>
+  <body>
+    <!-- Left Navigation Section -->
+    <div
+      class="fixed flex h-screen w-2/5 flex-col justify-between border-r-2 border-r-lightNavyBlue"
+    >
+      <!-- Name and Position -->
+      <div class="border-2 border-dotted border-darkPurple text-coolGreen">
+        <p class="text-xl">Bryan Shetty</p>
+        <p class="text-md font-extralight">Software Developer at Semtech</p>
       </div>
 
-      <!-- Right Half -->
-      <div class="right-half flex flex-1 flex-col">
-        <p>Test 2</p>
+      <!-- Navigation links -->
+      <div
+        class="flex flex-col items-end border-2 border-dashed border-pink text-sm font-extralight text-white"
+      >
+        <a href="#">Quick Glance</a>
+        <a href="#">About Me</a>
+        <a href="#">Experience</a>
+        <a href="#">Projects</a>
+      </div>
+
+      <!-- Social Links -->
+      <div class="mb-2 flex flex-row border-2">
+        <a href="#"
+          ><img src="public/img/github.png" alt="" class="mx-2 h-4 w-4"
+        /></a>
+        <a href="#"
+          ><img src="public/img/linkedin.png" alt="" class="h-4 w-4"
+        /></a>
       </div>
     </div>
+
+    <!-- Right Content Section -->
+    <div class="right-section">Content</div>
   </body>
 </html>
